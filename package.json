@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.6.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
-    "start:dev": "nodemon index"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OlenaLotos/nodejs-homework-01.git"
+    "url": "https://github.com/OlenaLotos/nodejs-homework-01.git"
   },
   "author": "",
   "license": "ISC",
